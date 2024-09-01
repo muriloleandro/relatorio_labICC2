@@ -1,0 +1,63 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage[left=0.5cm,top=0cm,right=0.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{minted}
+
+\def\grosso{\vspace{-1.3em}\begin{center}\rule{200mm}{4pt}\end{center}}
+\def\fino{\vspace{-1.5em}\begin{center}\rule{200mm}{0.5pt}\end{center}}
+
+\date{}
+\author{}
+\title{
+    \includegraphics[width=4cm]{logo.png} \\
+    \vspace{-0.5cm} \line(1,0){400} \vspace{0.5cm} \\
+    \Large \textbf{SCC0220 - Laboratório Introdução à Ciência da Computação II} \\
+    \vspace{1em}
+    \large \textbf{Relatório de execução da aula prática 1} \\
+    \vspace{-3.5em}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{tabular}{ll}
+    \textbf{Alunos}      & \textbf{NUSP} \\
+    Murilo Louco Louco   & 11111111 \\
+    Outra Pessoa Maneira & 11111112 \\
+\end{tabular}
+\vspace{1.5em}
+\sffamily
+
+\large \textbf{Exercício 1 - Exercício maneiro}
+\grosso
+
+\large  \textbf{Item a}
+\fino
+
+\large $\rightarrow$ \textbf{Comentário} \small
+
+O programa "Hello World" é o exemplo mais simples em C, utilizado para introduzir a sintaxe básica, mostrando como imprimir texto no console e servir de primeiro passo para iniciantes em programação.
+
+\large $\rightarrow$ \textbf{Código} \small
+
+\begin{minted}[fontsize=\small]{c}
+    #include <stdio.h>
+
+    int main() {
+        puts("Hello World!");
+        return 0;
+    }
+\end{minted}
+
+\large $\rightarrow$ \textbf{Saída} \small
+
+A saída esperada do programa é:
+
+\begin{verbatim}
+    Hello World!
+\end{verbatim}
+
+\end{document}
